@@ -1,0 +1,9 @@
+{
+  "scope": "Byte-identical original supplied workflow scripts",
+  "sha256": {
+    "Step_01_GWAS_hg19_to_hg38_audit.sh": "c3f856f42ca66e88c7b63c41308c16ca2ef9bb3cbbaebf3fca97796ee1bdc574",
+    "Step_02_GWAS_liftover_pilot.py": "0d67876e33ef917237666f5423a40d60ca61948597167bdbb9085fc92fde3cc4",
+    "Step_03_GWAS_GRCh38_full.py": "b90bb8be1016b28c2edf755d302e0c8b55d4d39b5b5d1ce70250803732c09500",
+    "Step_04_GWAS_liftover_final_audit.py": "af4b62830f64adb24e229f03b21846d00427f8032cf193a60159a79ca35ed995"
+  }
+}
