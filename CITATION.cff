@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "Please cite this software release and the underlying data and UCSC resources when using the workflow."
+type: software
+title: "GWAMA SNP liftover with allele validation and reproducible checkpoints"
+version: 1.0.0
+date-released: 2026-11-14
+authors:
+  - family-names: Shi
+    given-names: Yiming
+license: MIT
+abstract: "A schema-aware GRCh37 to GRCh38 workflow for GWAMA-style summary statistics, using UCSC liftOver, explicit effect-allele bookkeeping, SNP validation, review files and atomic checkpoints."
+keywords:
+  - GWAS
+  - GWAMA
+  - liftOver
+  - GRCh38
+  - reproducibility

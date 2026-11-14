@@ -1,0 +1,15 @@
+{
+  "inputs": {
+    "MCH": "data/GWAS/raw/MCH_EA_GWAMA_20190214_GC.gz",
+    "MCV": "data/GWAS/raw/MCV_EA_GWAMA_20190214_GC.gz",
+    "RDW": "data/GWAS/raw/RDW_EA_GWAMA_20190214_GC.gz"
+  },
+  "liftover": "tools/liftOver",
+  "chain": "reference/liftover/hg19ToHg38.over.chain.gz",
+  "fasta": "reference/GRCh38/GRCh38.primary_assembly.genome.fa",
+  "out": "results/run",
+  "chunk_size": 500000,
+  "compress_threads": 2,
+  "min_free_gib": 5,
+  "pilot_rows": 10000
+}
