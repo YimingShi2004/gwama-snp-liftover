@@ -1,0 +1,14 @@
+{
+  "release": "1.0.0",
+  "date": "2026-11-14",
+  "standard_library_tests": {
+    "passed": 15,
+    "command": "python3 -m unittest discover -s tests -p 'test_*.py' -v"
+  },
+  "native_UCSC_integration": "PASS on generated miniature genomes",
+  "python_validation_runtime": "3.12.14",
+  "native_test_binary_sha256": "87f202a0059b8bb6b4ab5db22f84c822413bab2dc22d3b6ad0e9e368e185bfec",
+  "native_test_binary_note": "Validation executable only; not the author production executable and not bundled",
+  "full_user_dataset_reanalysis_in_release_environment": false,
+  "manuscript_QA": "Two-page DOCX rendered and visually inspected; Times New Roman 12 pt body; text agrees with Markdown"
+}
